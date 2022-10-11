@@ -3,6 +3,8 @@ import "./LeftContainer.css"
 import img1 from "../Images/Ellipse 84.svg"
 import img2 from "../Images/Ellipse 85.svg"
 import twitter from "../Images/twitter.svg"
+import instagram from "../Images/instagram.svg"
+import github from "../Images/github.png"
 const LeftContainer = () => {
   return (
     <div className='left-container'>
@@ -37,8 +39,10 @@ const LeftContainer = () => {
           download resume here
         </p>
       </div>
-      <div>
-        <img src={twitter}></img>
+      <div className='contact-link-container'>
+       <a href="https://twitter.com/chiku_hari"><img src={twitter}></img></a> 
+       <a href="https://instagram.com/r.a.d.h.a_h.a.r.i_7?igshid=YmMyMTA2M2Y="><img src={instagram}></img></a> 
+       <a href='#'><img></img></a>
       </div>
     </div>
   )
