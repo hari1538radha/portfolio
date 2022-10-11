@@ -5,8 +5,8 @@ import RightContainer from '../RightContainer/RightContainer'
 const MainContainer = () => {
   return (
     <div className='main-container'>
-        <LeftContainer/>
-        <RightContainer/>
+      <LeftContainer />
+      <RightContainer />
     </div>
   )
 }
