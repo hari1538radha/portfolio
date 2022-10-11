@@ -40,9 +40,9 @@ const LeftContainer = () => {
         </a>
       </div>
       <div className='contact-link-container'>
-       <a href="https://twitter.com/chiku_hari"><img src={twitter}></img></a> 
-       <a href="https://instagram.com/r.a.d.h.a_h.a.r.i_7?igshid=YmMyMTA2M2Y="><img src={instagram}></img></a> 
-       <a href='#'><img></img></a>
+        <a href="https://twitter.com/chiku_hari"><img src={twitter}></img></a>
+        <a href="https://instagram.com/r.a.d.h.a_h.a.r.i_7?igshid=YmMyMTA2M2Y="><img src={instagram}></img></a>
+        <a href='#'><img></img></a>
       </div>
     </div>
   )
