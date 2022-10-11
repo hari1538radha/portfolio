@@ -87,6 +87,7 @@ height: 63px;
 border: none;
 margin-left: 203px;
 margin-top: 48px;
+cursor: pointer;
 }
 .portfolio-container{
     display: flex;
@@ -115,5 +116,6 @@ text-decoration: underline;
     align-items: center;
     justify-content: center;
 margin-top: 100px;
+cursor: pointer;
     
     }

@@ -35,9 +35,9 @@ const LeftContainer = () => {
       </div>
       <div className='portfolio-container'>
         <button className='btn-portfolio'> portfolio</button>
-        <p className='download-here'>
+        <a href="https://drive.google.com/file/d/1X7i2bnBVZVMo0VFiW_qKUyk5Aq2XMed8/view?usp=drivesdk" className='download-here'>
           download resume here
-        </p>
+        </a>
       </div>
       <div className='contact-link-container'>
        <a href="https://twitter.com/chiku_hari"><img src={twitter}></img></a> 
