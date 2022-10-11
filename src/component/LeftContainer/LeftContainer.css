@@ -108,3 +108,12 @@ color: #CFCFCF;
 margin-left: 44px;
 text-decoration: underline;
 }
+.contact-link-container
+{
+    display: flex;
+    gap:21px;
+    align-items: center;
+    justify-content: center;
+margin-top: 100px;
+    
+    }
