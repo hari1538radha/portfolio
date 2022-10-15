@@ -6,7 +6,7 @@ const Navbar = () => {
   return (
     <div>
        <nav className='nav-container'>
-        <a href="">Home</a>
+        <a href="/">Home</a>
         <a href="/about">About</a>
         <a href="/project">Projects</a>
         <a href="socialprofiles">Social</a>

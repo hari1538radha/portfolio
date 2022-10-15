@@ -9,7 +9,7 @@ const Contact = () => {
     </nav>
       
 <div className='contact-header'>
-<h1>
+<h1 class="text">
     Contact Hari here<i className="fa-duotone fa-hand-back-point-down"></i>
   </h1>
 </div>

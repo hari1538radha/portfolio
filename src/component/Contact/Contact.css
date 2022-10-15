@@ -22,7 +22,7 @@ outline-offset: 5px;
 
 .submit-btn {
   background-color: transparent;
-  border: 1px solid #266DB6;
+  border: 1px solid black;
   box-sizing: border-box;
   color: #00132C;
   font-family: "Avenir Next LT W01 Bold",sans-serif;
@@ -92,6 +92,16 @@ border-radius: 0px 24px 0px 25px;
 
     width: 100vw;
 }
-.contact-header h1{
-    font-family: montserrat;
+
+.text {
+	text-transform: uppercase;
+	background: linear-gradient(to right, white 0%, grey 50%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+.contact-container
+{
+    width: 100vw;
+     background: linear-gradient(146.88deg, #1E1F1D 1.46%, #1A1C18 99.06%);
+    height: 100vh;
 }
