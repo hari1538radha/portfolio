@@ -2,6 +2,18 @@ import React from 'react'
 import Navbar from "./Navbar"
 import "./Contact.css"
 const Contact = () => {
+   const HandelContact = (e) =>
+   {
+    e.preventDefault();
+    const Element =e.target.elements
+    const Name = Element[0].value;
+    const Email = Element[1].value;
+    const Number = Element[2].value;
+    const Message = Element[3].value;
+    console.log(Name,Email,Number,Message);
+
+    
+   }
   return (
     <div className='contact-container'>
       <nav><Navbar/>
@@ -15,7 +27,7 @@ const Contact = () => {
 </div>
 
 
-<form>
+<form onSubmit={HandelContact}>
       <div className='login-container'>
     
           <input type="text" placeholder='Enter your name'required={true}>
