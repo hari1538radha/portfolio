@@ -1,0 +1,25 @@
+.nav-container a
+{
+
+    text-decoration: none;
+    color: white;
+    margin-right: 50px;
+    display: flex;
+}
+.nav-container
+{
+
+align-items: center;
+display: flex;
+background-color: black;
+justify-content: space-evenly;
+width: 100vw;
+height: 75px;
+
+}
+.navbar-container--icon
+{
+  
+    margin-left: -30px;
+}
+
