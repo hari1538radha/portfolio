@@ -1,5 +1,28 @@
 .right-container {
     width: 736px;
     height: 937px;
+    color: white;
     background: #010101;
+}
+.line-container{
+    margin-left: 57px;
+    position: relative;
+}
+.profile-pic
+{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 10%;
+    left: 14.5%;
+    border-radius: 50%;
+}
+.profile-pic {
+    filter: drop-shadow(2px 2px 5px rgb(67, 216, 104));
+}
+.profile-header
+{
+    position: absolute;
+    top: 70%;
+    left: 40%;
 }
