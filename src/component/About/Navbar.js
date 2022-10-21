@@ -7,7 +7,7 @@ const Navbar = () => {
     <div>
        <nav className='nav-container'>
         <a href="/">Home</a>
-        <a href="/about">About</a>
+        <a href="/contact">Contact</a>
         <a href="/project">Projects</a>
         <a href="socialprofiles">Social</a>
         

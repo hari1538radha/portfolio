@@ -1,11 +1,10 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700|Josefin+Sans:400,600,700,400italic,600italic);
-.login-container
-{
+
+.login-container {
     position: absolute;
     top: 200px;
     left: 35%;
     display: flex;
-
     border-radius: 0px 24px 0px 25px;
     align-items: center;
     justify-content: center;
@@ -13,70 +12,71 @@
     width: 30em;
     height: 30em;
     gap: 2em;
-    outline: 4px double rgba(0,0,0,0.22);
-outline-offset: 5px;
-    background: rgba(255, 255, 255, 0.3);
-  
+    outline: 4px double rgba(0, 0, 0, 0.22);
+    outline-offset: 5px;
+    background: rgba(255, 255, 255, 0.5);
+
 }
 
 
 .submit-btn {
-  background-color: transparent;
-  border: 1px solid #266DB6;
-  box-sizing: border-box;
-  color: #00132C;
-  font-family: "Avenir Next LT W01 Bold",sans-serif;
-  font-size: 16px;
-  font-weight: 700;
-  line-height: 24px;
-  padding: 16px 23px;
-  position: relative;
-  text-decoration: none;
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
+    background-color: transparent;
+    border: 1px solid black;
+    box-sizing: border-box;
+    color: #00132C;
+    font-family: "Avenir Next LT W01 Bold", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    padding: 16px 23px;
+    position: relative;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
 }
 
 .submit-btn:hover,
 .submit-btn:active {
-  outline: 0;
+    outline: 0;
 }
 
 .submit-btn:hover {
-  background-color: transparent;
-  cursor: pointer;
+    background-color: transparent;
+    cursor: pointer;
 }
 
 .submit-btn:before {
-  background-color: #D5EDF6;
-  content: "";
-  height: calc(100% + 3px);
-  position: absolute;
-  right: -7px;
-  top: -9px;
-  transition: background-color 300ms ease-in;
-  width: 100%;
-  z-index: -1;
+    background-color: #D5EDF6;
+    content: "";
+    height: calc(100% + 3px);
+    position: absolute;
+    right: -7px;
+    top: -9px;
+    transition: background-color 300ms ease-in;
+    width: 100%;
+    z-index: -1;
 }
 
 .submit-btn:hover:before {
-  background-color: #6DCFF6;
+    background-color: #6DCFF6;
 }
 
 @media (min-width: 768px) {
-  .submit-btn {
-    padding: 16px 32px;
-  }
+    .submit-btn {
+        padding: 16px 32px;
+    }
 }
-.login-container input{
+
+.login-container input {
     width: 420px;
     border: 2px dottedd black;
     height: 55px;
     background: #ffffff;
     opacity: 0.99;
     border-radius: 15px;
-    border: 3px inset rgba(0,0,0,0.23);
-border-radius: 0px 24px 0px 25px;
+    border: 3px inset rgba(0, 0, 0, 0.23);
+    border-radius: 0px 24px 0px 25px;
     font-family: "Poppins";
     font-style: normal;
     font-weight: 500;
@@ -85,13 +85,22 @@ border-radius: 0px 24px 0px 25px;
     padding-left: 19px;
 }
 
-.contact-header
-{
-  text-align: center;
-  margin-top: 30px;
+.contact-header {
+    text-align: center;
+    margin-top: 30px;
 
     width: 100vw;
 }
-.contact-header h1{
-    font-family: montserrat;
+
+.text {
+    text-transform: uppercase;
+    background: linear-gradient(to right, white 0%, grey 50%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.contact-container {
+    width: 100vw;
+    background: linear-gradient(146.88deg, #1E1F1D 1.46%, #1A1C18 99.06%);
+    height: 100vh;
 }
