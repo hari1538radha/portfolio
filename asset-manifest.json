@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.b40d6d93.css",
-    "main.js": "/portfolio/static/js/main.e46d4863.js",
-    "static/media/profile.JPEG": "/portfolio/static/media/profile.30ed30528608c5da3b9d.JPEG",
-    "static/media/i-icon.svg": "/portfolio/static/media/i-icon.7e54281541b9592ffa135dd1b795c371.svg",
-    "static/media/instagram.svg": "/portfolio/static/media/instagram.79b9b008b43f117711cfe3287c1ef193.svg",
-    "static/media/twitter.svg": "/portfolio/static/media/twitter.c2ec1caf962ceaa58979b3e701f79d1c.svg",
-    "index.html": "/portfolio/index.html",
-    "static/media/line.svg": "/portfolio/static/media/line.d78de9b598582486930489c0fc0ee29f.svg",
-    "static/media/Ellipse 85.svg": "/portfolio/static/media/Ellipse 85.5e33dcdeb325b253130580ccfc432b32.svg",
-    "static/media/Ellipse 84.svg": "/portfolio/static/media/Ellipse 84.51fb9735dff10f6d819f63b4446eb29b.svg",
-    "main.b40d6d93.css.map": "/portfolio/static/css/main.b40d6d93.css.map",
-    "main.e46d4863.js.map": "/portfolio/static/js/main.e46d4863.js.map"
+    "main.css": "/porfoliobuild/static/css/main.b40d6d93.css",
+    "main.js": "/porfoliobuild/static/js/main.292b881b.js",
+    "static/media/profile.JPEG": "/porfoliobuild/static/media/profile.30ed30528608c5da3b9d.JPEG",
+    "static/media/i-icon.svg": "/porfoliobuild/static/media/i-icon.7e54281541b9592ffa135dd1b795c371.svg",
+    "static/media/instagram.svg": "/porfoliobuild/static/media/instagram.79b9b008b43f117711cfe3287c1ef193.svg",
+    "static/media/twitter.svg": "/porfoliobuild/static/media/twitter.c2ec1caf962ceaa58979b3e701f79d1c.svg",
+    "index.html": "/porfoliobuild/index.html",
+    "static/media/line.svg": "/porfoliobuild/static/media/line.d78de9b598582486930489c0fc0ee29f.svg",
+    "static/media/Ellipse 85.svg": "/porfoliobuild/static/media/Ellipse 85.5e33dcdeb325b253130580ccfc432b32.svg",
+    "static/media/Ellipse 84.svg": "/porfoliobuild/static/media/Ellipse 84.51fb9735dff10f6d819f63b4446eb29b.svg",
+    "main.b40d6d93.css.map": "/porfoliobuild/static/css/main.b40d6d93.css.map",
+    "main.292b881b.js.map": "/porfoliobuild/static/js/main.292b881b.js.map"
   },
   "entrypoints": [
     "static/css/main.b40d6d93.css",
-    "static/js/main.e46d4863.js"
+    "static/js/main.292b881b.js"
   ]
 }
